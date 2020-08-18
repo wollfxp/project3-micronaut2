@@ -1,0 +1,7 @@
+applicationType: default
+defaultPackage: com.dataart.microapp
+profile: service
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, docker, file-watch, graalvm, gradle, http-client, java, java-application, jax-rs, junit, logback, netty-server, openapi, readme, shade, yaml]

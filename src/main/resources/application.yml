@@ -1,0 +1,7 @@
+micronaut:
+  server:
+    port: 8088
+  application:
+    name: micronaut2
+jackson:
+  bean-introspection-module: true
