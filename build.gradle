@@ -54,6 +54,11 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
 
 test.classpath += configurations.developmentOnly
 
