@@ -32,4 +32,10 @@ public class Micronaut2Test {
         assertTrue(response.contains("hello @"));
     }
 
+    @Test
+    void testControllerWorksWithName(){
+        String response = client.retrieve("/vasya").blockingFirst();
+        assertTrue(response.contains("hello vasya @"));
+    }
+
 }

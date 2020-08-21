@@ -13,7 +13,7 @@ import javax.inject.Singleton;
         )
 )
 @Singleton
-public class Application extends javax.ws.rs.core.Application {
+public class Application {
 
     public static void main(String[] args) {
         Micronaut.run(Application.class, args);
